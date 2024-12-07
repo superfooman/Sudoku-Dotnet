@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sudoku", "Sudoku\Sudoku.csproj", "{18A1D798-F85B-40DB-82F1-D229BD444AFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sudoku", "Sudoku\Sudoku.csproj", "{18A1D798-F85B-40DB-82F1-D229BD444AFC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SudokuConsoleTestApp", "SudokuConsoleTestApp\SudokuConsoleTestApp.csproj", "{B31F957A-BA96-45B2-81B0-6EE6D8465087}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SudokuLib", "SudokuLib\SudokuLib.csproj", "{C004D338-F5BB-4D24-822E-BADAA24005AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SudokuUnitTests", "SudokuUnitTest\SudokuUnitTests.csproj", "{F80EC9E7-77A5-4D1B-9ABC-37FA4E0B59AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{18A1D798-F85B-40DB-82F1-D229BD444AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18A1D798-F85B-40DB-82F1-D229BD444AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18A1D798-F85B-40DB-82F1-D229BD444AFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B31F957A-BA96-45B2-81B0-6EE6D8465087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B31F957A-BA96-45B2-81B0-6EE6D8465087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B31F957A-BA96-45B2-81B0-6EE6D8465087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B31F957A-BA96-45B2-81B0-6EE6D8465087}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C004D338-F5BB-4D24-822E-BADAA24005AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C004D338-F5BB-4D24-822E-BADAA24005AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C004D338-F5BB-4D24-822E-BADAA24005AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C004D338-F5BB-4D24-822E-BADAA24005AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F80EC9E7-77A5-4D1B-9ABC-37FA4E0B59AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F80EC9E7-77A5-4D1B-9ABC-37FA4E0B59AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F80EC9E7-77A5-4D1B-9ABC-37FA4E0B59AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F80EC9E7-77A5-4D1B-9ABC-37FA4E0B59AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
